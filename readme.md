@@ -54,4 +54,6 @@ Como oportunidades de mejora hemos identificado que es necesario la aplicación 
 
 ## 4. Conclusiones
 
-...
+- La arquitectura GAN es una opción prometedora para generar objetos 3D. Aunque este proyecto no logró completar su implementación, sentó las bases para futuros desarrollos. Se recomienda investigar técnicas de entrenamiento y ajuste de parámetros para mejorar la calidad de los objetos generados.
+- La conversión de objetos 3D a formato voxelizado fue crucial para la generación. El software Binvox permitió una lectura eficiente y conversión en voxels, facilitando el análisis y manipulación de los objetos, así como su impresión 3D. Se sugiere explorar y probar otros métodos y herramientas de voxelización para futuros proyectos.
+- La impresión 3D fue valiosa para validar los resultados. A pesar de las limitaciones en la implementación de la GAN, se pudo comprobar la coherencia del objeto resultante al imprimirlo junto con la pieza faltante. En futuros proyectos, se recomienda explorar más la impresión 3D como parte integral del proceso de generación de objetos 3D.
