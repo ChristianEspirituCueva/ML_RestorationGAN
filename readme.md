@@ -23,12 +23,13 @@ Nuestra principal motivación es profundizar nuestro aprendizaje en esta discipl
 ### Objetivos
 
 **Objetivos Generales:**
-- Diseñar un código que interprete archivos de objetos 3D y generar pequeños orificios en ellos.
+- Diseñar un código que interprete archivos de objetos 3D, genere pequeños orificios en ellos y mediante el desarrollo de una Red Neuronal Generativa Adversaria ayude a la reconstrucción de esta.
 
 **Objetivos Específicos:**
 - Desarrollar un sistema para procesar archivos 3D en diversos formatos.
 - Desarrollar un modelo que permita realizar agujeros en objetos 3D.
-- Investigar y seleccionar los algoritmos de machine learning más adecuados para el proyecto.
+- Investigar y seleccionar la arquitectura GAN más adecuados para el proyecto.
+- Desarrollar la arquitectura GAN más adecuados para el proyecto. 
 
 
 ## 2. Marco Teórico
