@@ -1,10 +1,13 @@
 # Informe Grupal 
 ## Trabajo Final de Machine Learning
 **Alumnos**
+
 Flores Tenorio, Juan Diego Enrique - U202014558
 
 Goyas Ayllón, Leonardo Andre - U202010206
+
 Galindo Alvarez, Franco - U202010807
+
 Espíritu Cueva, Christian - U201615215
 
 **Docente**
