@@ -2,6 +2,7 @@
 ## Trabajo Final de Machine Learning
 **Alumnos**
 Flores Tenorio, Juan Diego Enrique - U202014558
+
 Goyas Ayllón, Leonardo Andre - U202010206
 Galindo Alvarez, Franco - U202010807
 Espíritu Cueva, Christian - U201615215
@@ -46,7 +47,10 @@ Durante el desarrollo del proyecto se realizaron una serie de análisis, impleme
 
 En primer lugar, se observó la arquitectura GAN adecuada para la generación de objetos 3D. Además, se analizaron diferentes algoritmos y técnicas de desarrollo para la lectura y edición de un archivo que contiene un objeto 3D. Se optó por utilizar el software Binvox, que nos permite la lectura y conversión a voxel de distintos formados de objetos 3D. A comparación con otros métodos, Binvox llega a ser más eficiente debido al uso de un ejecutable que administra la memoria de manera eficiente. Se utilizó el dataset Modelnet10, que contiene 4899 objetos 3D y 10 distintas categorías. Luego, se convirtieron todos los objetos 3D a formato Voxel con la finalidad de obtener una resolución baja de estos y pasar a quitarle un pedazo del objeto. Esto con la finalidad de poder entrenar nuestro modelo GAN.
 
+El enlace al conjunto de datos es el siguiente: https://www.kaggle.com/datasets/balraj98/modelnet10-princeton-3d-object-dataset
+
 En segundo lugar, se tenía como objetivo la implementación de la GAN. Este se compone de un par de redes que permiten la obtención de un nuevo modelo generado por Machine Learning. Por un lado, la red generadora contribuye en la creación de nuevos modelos a partir de valores que son conformados por los modelos faltantes de una pieza, a prueba y error estos van mejorando con el tiempo gracias a la contribución del discriminador. Por otro lado, la red discriminadora nos dice si los objetos 3D generados son correctas o erróneas, esta red es entrenada con los objetos 3D completos en formato Voxel. Una vez obtenido el resultado se pasan a interpretarlos.
+
 
 En tercer lugar, se analizan los resultados obtenidos de los objetos generados. Debido a complicaciones en el curso de Machine Learning no se finalizó la implementación de la GAN. Para dar solución a ello, se realizó la impresión 3D del objeto original incompleta junto con su pieza para así realizar la demostración de la unión entre ellas. Por otro lado, si se hubiera realizado la implementación de la GAN, el siguiente paso sería medir la eficiencia de nuestro modelo se ha utilizado las métricas de pérdida o loss de ambas redes (generadora y discriminadora). Una vez obtenido el modelo resultado, se hubiera realizado la resta de este menos su modelo original faltante de una pieza, para así obtener solo la pieza generada. Este pedazo es impreso en una impresora 3D junto con el modelo original faltante de una pieza. Como parte final se hubiera validado los resultados, hubiéramos juntado ambos objetos impresos para identificar que a partir de la unión correcta estos tenían armonía entre sí y hacen un solo objeto uniforme.
 
