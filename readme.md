@@ -39,7 +39,7 @@ Nuestra principal motivación es profundizar nuestro aprendizaje en esta discipl
 ## 2. Marco Teórico
 
 - **Formato voxelizado:** El formato voxelizado representa objetos tridimensionales mediante pequeños cubos llamados "voxels", capturando su geometría y propiedades volumétricas.
-- **Binbox:** Binvox convierte formatos de objetos tridimensionales (OBJ, OFF, STL) a formato voxelizado (.binvox). Asigna valores binarios a cada voxel para indicar si está ocupado o no por el objeto.
+- **Binvox:** Binvox convierte formatos de objetos tridimensionales (OBJ, OFF, STL) a formato voxelizado (.binvox). Asigna valores binarios a cada voxel para indicar si está ocupado o no por el objeto.
 - **Impresión 3D:** Utiliza el formato STL para describir la geometría de los objetos tridimensionales a imprimir. Se utiliza debido a su simplicidad y compatibilidad con la mayoría de las impresoras y software de impresión 3D.
 - **Recursos disponibles:** GitHub y Kaggle son herramientas fundamentales en el desarrollo de software y la ciencia de datos. GitHub permite la colaboración y gestión del código fuente, mientras que Kaggle proporciona conjuntos de datos y herramientas para análisis y modelado predictivo. Ambas plataformas son esenciales para facilitar la colaboración y el intercambio de conocimientos en estas áreas.
 
